@@ -12,6 +12,8 @@ console.log(jonas);
 
 const matilda = new Person ('Matilda', '1995');
 console.log(matilda);
+const jack = new Person ('Jack', '1988');
+console.log(jack);
 
 //1. New empty object is created
 //2. function is called, this = {},this key word is assigned to  an empty object
