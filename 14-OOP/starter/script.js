@@ -35,3 +35,7 @@ Person.prototype.calcAge = function (){
 };
 
 jonas.calcAge();
+
+console.log(jonas.__proto__);
+console.log(jonas.__proto__== Person.prototype);
+//will return true
