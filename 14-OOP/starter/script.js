@@ -33,3 +33,5 @@ console.log(jonas instanceof Person);
 Person.prototype.calcAge = function (){
     console.log(2024-this.birthYear);
 };
+
+jonas.calcAge();
