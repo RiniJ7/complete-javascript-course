@@ -7,9 +7,9 @@ this.birthYear= birthYear;
 
 //method created inside a constructor function. Not a good practice
 //all objects created from this function carry this method affects the perfomance
-this.calcAge = function() {
-    console.log(2024- this.birthyear);
-}
+//this.calcAge = function() {
+   // console.log(2024- this.birthyear);
+//}
 
 };
 const jonas = new Person('Jonas', '1991');
@@ -28,3 +28,8 @@ console.log(jack);
 
 console.log(jonas instanceof Person);
 //returns true
+
+//Prototypes
+Person.prototype.calcAge = function (){
+    console.log(2024-this.birthYear);
+};
